@@ -1,0 +1,22 @@
+.body {
+  background-color: skyblue;
+}
+
+.guess {
+  color: brown;
+}
+
+.insert {
+  background-color: burlywood;
+  margin-bottom: 8px;
+}
+
+.clue {
+  border: solid 2px;
+  width: 280px;
+}
+
+.tries {
+  border: solid 2px;
+  width: 180px;
+}
