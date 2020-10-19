@@ -10,11 +10,15 @@
     <h1 class="guess">Adivina el número</h1>
     <form>
       <p>Introduce aquí tu número:</p>
-      <input type="number" max="100" min="1" class="insert js-insert" />
-      <input type="button" value="Prueba" class="tryButton js-tryButton" />
+      <label for="insertValue"></label>
+      <input id="insertValue" type="number" min="1" max="100" placeholder="Introduce tu numero" class="insert js-insert" />
+      <label for="tryButton"></label>
+      <input id="tryButton" type="button" value="Prueba" class="tryButton js-tryButton" />
+      <label for="playAgainButton"></label>
+      <input id="playAgainButton" type="button" value="Volver a jugar" class="playAgainButton js-playAgainButton" hidden="true" />
     </form>
     <p class="clue js-clue">Pista: Escribe el número y dale a Prueba</p>
     <p class="tries js-tries">Número de intentos: 0</p>
-    <script src="main.js"></script>
+    <script src="./JS/main.js"></script>
   </body>
 </html>
